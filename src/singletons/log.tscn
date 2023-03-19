@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/singletons/log.gd" type="Script" id=1]
+
+[node name="Log" type="Node"]
+script = ExtResource( 1 )
+console_logging = true
+_log_flags/INTERNAL = true
+_log_flags/SIGNAL = false
+_log_flags/AI = false
+_log_flags/GAMEPLAY = true
+_log_flags/VFX = false
+_log_flags/SFX = true
+_log_flags/INPUT = true
+_log_flags/PHYSICS = false
+_log_flags/COUNT = null
